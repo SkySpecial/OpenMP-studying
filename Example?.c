@@ -14,6 +14,6 @@ void increment_list_items(node* head)
             	#pragma omp task
             	process(p); // p is firstprivate by default
             }
-        }
+        } 
     }
 }
